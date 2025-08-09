@@ -1,0 +1,3094 @@
+{
+  "questions": [
+    {
+      "id": "Q-PS-RATE-11",
+      "type": "PS",
+      "section": "Quant",
+      "difficulty": 2,
+      "tags": [
+        "Rates",
+        "Work"
+      ],
+      "stem": "Machine A can finish a job in 6 hours and Machine B in 4 hours. Working together (constant rates), how long to finish the job?",
+      "options": [
+        "2.40 hours",
+        "1.92 hours",
+        "2.88 hours",
+        "2.16 hours",
+        "2.64 hours"
+      ],
+      "answerIndex": 0,
+      "explanation": "Add rates: 1/6+1/4=0.417. Time = 1/sum \u2248 2.40 hours.",
+      "hints": [
+        "Add rates, not times.",
+        "Use t = 1/(r_A + r_B)."
+      ],
+      "keywords": [
+        "rates",
+        "work"
+      ]
+    },
+    {
+      "id": "Q-PS-PCT-15",
+      "type": "PS",
+      "section": "Quant",
+      "difficulty": 3,
+      "tags": [
+        "Percent",
+        "Multipliers"
+      ],
+      "stem": "A price is increased by 10% and then decreased by 30%. What is the net percent change from the original price?",
+      "options": [
+        "-33%",
+        "-28%",
+        "-23%",
+        "-18%",
+        "-13%"
+      ],
+      "answerIndex": 2,
+      "explanation": "Use multipliers: \u00d71.10 then \u00d70.70. Net multiplier m=0.770; net change is (m\u22121)\u00d7100\u2248-23%.",
+      "hints": [
+        "Translate to multipliers.",
+        "Multiply, then convert back to percent."
+      ],
+      "keywords": [
+        "percent",
+        "multiplier"
+      ]
+    },
+    {
+      "id": "Q-DS-YN-10",
+      "type": "DS",
+      "section": "Quant",
+      "difficulty": 1,
+      "tags": [
+        "Inequalities",
+        "Data Sufficiency"
+      ],
+      "stem": "Is x > 2?",
+      "dsStatements": [
+        "(1) 7x > 14.",
+        "(2) x > 1."
+      ],
+      "dsAnswer": "A",
+      "explanation": "(1) implies x>2 directly; sufficient. (2) only gives x>1, not enough.",
+      "hints": [
+        "Reduce each statement.",
+        "Check if the question is fully answered."
+      ],
+      "keywords": [
+        "DS",
+        "A"
+      ]
+    },
+    {
+      "id": "Q-DS-VAL-11",
+      "type": "DS",
+      "section": "Quant",
+      "difficulty": 1,
+      "tags": [
+        "Linear Equations",
+        "Data Sufficiency"
+      ],
+      "stem": "What is the value of x?",
+      "dsStatements": [
+        "(1) 5x + 5 = 12.",
+        "(2) x is an integer."
+      ],
+      "dsAnswer": "A",
+      "explanation": "(1) alone yields a single solution. (2) alone is not sufficient.",
+      "hints": [
+        "Try to solve directly from (1).",
+        "Check whether (2) restricts to one value."
+      ],
+      "keywords": [
+        "DS",
+        "solve"
+      ]
+    },
+    {
+      "id": "V-SC-MOD-6",
+      "type": "SC",
+      "section": "Verbal",
+      "difficulty": 2,
+      "tags": [
+        "SC",
+        "Modifiers",
+        "Conciseness"
+      ],
+      "stem": "Select the best version of the sentence.",
+      "options": [
+        "The committee, meeting late into the night, they concluded that the proposal, which was controversial, should be revised.",
+        "Meeting late into the night, the committee concluded that the controversial proposal should be revised.",
+        "The committee concluded, which was controversial, meeting late into the night, that the proposal should be revised.",
+        "Meeting late into the night, the controversial proposal was concluded to be revised by the committee.",
+        "The committee, meeting late into the night, concluded that the proposal should be revised controversially."
+      ],
+      "answerIndex": 1,
+      "explanation": "Option B removes the doubled subject and places modifiers next to what they modify; it's concise and active.",
+      "hints": [
+        "Avoid double subjects.",
+        "Place modifiers correctly."
+      ]
+    },
+    {
+      "id": "Q-PS-PCT-3",
+      "type": "PS",
+      "section": "Quant",
+      "difficulty": 2,
+      "tags": [
+        "Percent",
+        "Multipliers"
+      ],
+      "stem": "A price is increased by 15% and then decreased by 10%. What is the net percent change from the original price?",
+      "options": [
+        "-7%",
+        "-2%",
+        "+3%",
+        "+8%",
+        "+13%"
+      ],
+      "answerIndex": 2,
+      "explanation": "Use multipliers: \u00d71.15 then \u00d70.90. Net multiplier m=1.035; net change is (m\u22121)\u00d7100\u22483%.",
+      "hints": [
+        "Translate to multipliers.",
+        "Multiply, then convert back to percent."
+      ],
+      "keywords": [
+        "percent",
+        "multiplier"
+      ]
+    },
+    {
+      "id": "Q-PS-NP-9",
+      "type": "PS",
+      "section": "Quant",
+      "difficulty": 3,
+      "tags": [
+        "Number Theory",
+        "GCD/LCM"
+      ],
+      "stem": "For positive integers a and b, gcd(a,b)=10 and lcm(a,b)=84. What is ab?",
+      "options": [
+        "840",
+        "420",
+        "1680",
+        "834",
+        "846"
+      ],
+      "answerIndex": 0,
+      "explanation": "For integers, a\u00b7b = gcd(a,b) \u00d7 lcm(a,b).",
+      "hints": [
+        "Recall the product identity.",
+        "You don't need a and b individually."
+      ],
+      "keywords": [
+        "gcd",
+        "lcm",
+        "product"
+      ]
+    },
+    {
+      "id": "Q-PS-PCT-12",
+      "type": "PS",
+      "section": "Quant",
+      "difficulty": 2,
+      "tags": [
+        "Percent",
+        "Multipliers"
+      ],
+      "stem": "A price is increased by 15% and then decreased by 15%. What is the net percent change from the original price?",
+      "options": [
+        "-12%",
+        "-7%",
+        "-2%",
+        "+3%",
+        "+8%"
+      ],
+      "answerIndex": 2,
+      "explanation": "Use multipliers: \u00d71.15 then \u00d70.85. Net multiplier m=0.977; net change is (m\u22121)\u00d7100\u2248-2%.",
+      "hints": [
+        "Translate to multipliers.",
+        "Multiply, then convert back to percent."
+      ],
+      "keywords": [
+        "percent",
+        "multiplier"
+      ]
+    },
+    {
+      "id": "Q-PS-PCT-13",
+      "type": "PS",
+      "section": "Quant",
+      "difficulty": 2,
+      "tags": [
+        "Percent",
+        "Multipliers"
+      ],
+      "stem": "A price is increased by 10% and then decreased by 20%. What is the net percent change from the original price?",
+      "options": [
+        "-22%",
+        "-17%",
+        "-12%",
+        "-7%",
+        "-2%"
+      ],
+      "answerIndex": 2,
+      "explanation": "Use multipliers: \u00d71.10 then \u00d70.80. Net multiplier m=0.880; net change is (m\u22121)\u00d7100\u2248-12%.",
+      "hints": [
+        "Translate to multipliers.",
+        "Multiply, then convert back to percent."
+      ],
+      "keywords": [
+        "percent",
+        "multiplier"
+      ]
+    },
+    {
+      "id": "Q-PS-NP-7",
+      "type": "PS",
+      "section": "Quant",
+      "difficulty": 3,
+      "tags": [
+        "Number Theory",
+        "GCD/LCM"
+      ],
+      "stem": "For positive integers a and b, gcd(a,b)=3 and lcm(a,b)=60. What is ab?",
+      "options": [
+        "180",
+        "90",
+        "360",
+        "174",
+        "186"
+      ],
+      "answerIndex": 0,
+      "explanation": "For integers, a\u00b7b = gcd(a,b) \u00d7 lcm(a,b).",
+      "hints": [
+        "Recall the product identity.",
+        "You don't need a and b individually."
+      ],
+      "keywords": [
+        "gcd",
+        "lcm",
+        "product"
+      ]
+    },
+    {
+      "id": "Q-PS-PCT-2",
+      "type": "PS",
+      "section": "Quant",
+      "difficulty": 2,
+      "tags": [
+        "Percent",
+        "Multipliers"
+      ],
+      "stem": "A price is increased by 40% and then decreased by 15%. What is the net percent change from the original price?",
+      "options": [
+        "+9%",
+        "+14%",
+        "+19%",
+        "+24%",
+        "+29%"
+      ],
+      "answerIndex": 2,
+      "explanation": "Use multipliers: \u00d71.40 then \u00d70.85. Net multiplier m=1.190; net change is (m\u22121)\u00d7100\u224819%.",
+      "hints": [
+        "Translate to multipliers.",
+        "Multiply, then convert back to percent."
+      ],
+      "keywords": [
+        "percent",
+        "multiplier"
+      ]
+    },
+    {
+      "id": "V-CR-WEAK-2",
+      "type": "CR",
+      "section": "Verbal",
+      "difficulty": 2,
+      "tags": [
+        "CR",
+        "Weaken",
+        "Causation"
+      ],
+      "passage": "Officials claim that the recent subsidy significantly improved outcomes in marketing. However, the data were collected during a period of unusual activity.",
+      "question": "Which of the following, if true, most seriously weakens the officials\u2019 claim?",
+      "options": [
+        "Independent reports show that seasonal effects largely accounts for the observed change.",
+        "A follow-up study used the same data and reached a similar conclusion.",
+        "The program was less expensive than earlier initiatives.",
+        "Some participants reported satisfaction with the program.",
+        "The agency plans to expand the program next year."
+      ],
+      "answerIndex": 0,
+      "explanation": "Pointing to an alternative cause that better explains the result undermines the causal claim.",
+      "hints": [
+        "Target the conclusion.",
+        "Look for an alternative cause or confounder."
+      ]
+    },
+    {
+      "id": "Q-PS-NP-5",
+      "type": "PS",
+      "section": "Quant",
+      "difficulty": 3,
+      "tags": [
+        "Number Theory",
+        "GCD/LCM"
+      ],
+      "stem": "For positive integers a and b, gcd(a,b)=4 and lcm(a,b)=120. What is ab?",
+      "options": [
+        "480",
+        "240",
+        "960",
+        "474",
+        "486"
+      ],
+      "answerIndex": 0,
+      "explanation": "For integers, a\u00b7b = gcd(a,b) \u00d7 lcm(a,b).",
+      "hints": [
+        "Recall the product identity.",
+        "You don't need a and b individually."
+      ],
+      "keywords": [
+        "gcd",
+        "lcm",
+        "product"
+      ]
+    },
+    {
+      "id": "V-CR-WEAK-10",
+      "type": "CR",
+      "section": "Verbal",
+      "difficulty": 2,
+      "tags": [
+        "CR",
+        "Weaken",
+        "Causation"
+      ],
+      "passage": "Officials claim that the recent online ads significantly improved outcomes in public health. However, the data were collected during a period of unusual activity.",
+      "question": "Which of the following, if true, most seriously weakens the officials\u2019 claim?",
+      "options": [
+        "Independent reports show that another population segment largely accounts for the observed change.",
+        "A follow-up study used the same data and reached a similar conclusion.",
+        "The program was less expensive than earlier initiatives.",
+        "Some participants reported satisfaction with the program.",
+        "The agency plans to expand the program next year."
+      ],
+      "answerIndex": 0,
+      "explanation": "Pointing to an alternative cause that better explains the result undermines the causal claim.",
+      "hints": [
+        "Target the conclusion.",
+        "Look for an alternative cause or confounder."
+      ]
+    },
+    {
+      "id": "Q-DS-YN-13",
+      "type": "DS",
+      "section": "Quant",
+      "difficulty": 1,
+      "tags": [
+        "Inequalities",
+        "Data Sufficiency"
+      ],
+      "stem": "Is x > 2?",
+      "dsStatements": [
+        "(1) 8x > 16.",
+        "(2) x > 1."
+      ],
+      "dsAnswer": "A",
+      "explanation": "(1) implies x>2 directly; sufficient. (2) only gives x>1, not enough.",
+      "hints": [
+        "Reduce each statement.",
+        "Check if the question is fully answered."
+      ],
+      "keywords": [
+        "DS",
+        "A"
+      ]
+    },
+    {
+      "id": "Q-PS-RATE-7",
+      "type": "PS",
+      "section": "Quant",
+      "difficulty": 3,
+      "tags": [
+        "Rates",
+        "Work"
+      ],
+      "stem": "Machine A can finish a job in 5 hours and Machine B in 6 hours. Working together (constant rates), how long to finish the job?",
+      "options": [
+        "2.73 hours",
+        "2.18 hours",
+        "3.28 hours",
+        "2.46 hours",
+        "3.00 hours"
+      ],
+      "answerIndex": 0,
+      "explanation": "Add rates: 1/5+1/6=0.367. Time = 1/sum \u2248 2.73 hours.",
+      "hints": [
+        "Add rates, not times.",
+        "Use t = 1/(r_A + r_B)."
+      ],
+      "keywords": [
+        "rates",
+        "work"
+      ]
+    },
+    {
+      "id": "Q-DS-YN-5",
+      "type": "DS",
+      "section": "Quant",
+      "difficulty": 1,
+      "tags": [
+        "Inequalities",
+        "Data Sufficiency"
+      ],
+      "stem": "Is x > 2?",
+      "dsStatements": [
+        "(1) 8x > 16.",
+        "(2) x > 1."
+      ],
+      "dsAnswer": "A",
+      "explanation": "(1) implies x>2 directly; sufficient. (2) only gives x>1, not enough.",
+      "hints": [
+        "Reduce each statement.",
+        "Check if the question is fully answered."
+      ],
+      "keywords": [
+        "DS",
+        "A"
+      ]
+    },
+    {
+      "id": "Q-PS-ALG-10",
+      "type": "PS",
+      "section": "Quant",
+      "difficulty": 1,
+      "tags": [
+        "Linear Equations"
+      ],
+      "stem": "Solve for x: 6x + 6 = 20.",
+      "options": [
+        "2.33",
+        "3.33",
+        "1.33",
+        "4.33",
+        "0.33"
+      ],
+      "answerIndex": 0,
+      "explanation": "6x = 20-6 \u21d2 x=14/6 = 2.33.",
+      "hints": [
+        "Isolate x.",
+        "Subtract then divide."
+      ],
+      "keywords": [
+        "solve",
+        "linear"
+      ]
+    },
+    {
+      "id": "Q-DS-VAL-13",
+      "type": "DS",
+      "section": "Quant",
+      "difficulty": 1,
+      "tags": [
+        "Linear Equations",
+        "Data Sufficiency"
+      ],
+      "stem": "What is the value of x?",
+      "dsStatements": [
+        "(1) 6x + 4 = 12.",
+        "(2) x is an integer."
+      ],
+      "dsAnswer": "A",
+      "explanation": "(1) alone yields a single solution. (2) alone is not sufficient.",
+      "hints": [
+        "Try to solve directly from (1).",
+        "Check whether (2) restricts to one value."
+      ],
+      "keywords": [
+        "DS",
+        "solve"
+      ]
+    },
+    {
+      "id": "Q-PS-NP-8",
+      "type": "PS",
+      "section": "Quant",
+      "difficulty": 3,
+      "tags": [
+        "Number Theory",
+        "GCD/LCM"
+      ],
+      "stem": "For positive integers a and b, gcd(a,b)=9 and lcm(a,b)=90. What is ab?",
+      "options": [
+        "810",
+        "405",
+        "1620",
+        "804",
+        "816"
+      ],
+      "answerIndex": 0,
+      "explanation": "For integers, a\u00b7b = gcd(a,b) \u00d7 lcm(a,b).",
+      "hints": [
+        "Recall the product identity.",
+        "You don't need a and b individually."
+      ],
+      "keywords": [
+        "gcd",
+        "lcm",
+        "product"
+      ]
+    },
+    {
+      "id": "Q-PS-PCT-10",
+      "type": "PS",
+      "section": "Quant",
+      "difficulty": 3,
+      "tags": [
+        "Percent",
+        "Multipliers"
+      ],
+      "stem": "A price is increased by 10% and then decreased by 10%. What is the net percent change from the original price?",
+      "options": [
+        "-11%",
+        "-6%",
+        "-1%",
+        "+4%",
+        "+9%"
+      ],
+      "answerIndex": 2,
+      "explanation": "Use multipliers: \u00d71.10 then \u00d70.90. Net multiplier m=0.990; net change is (m\u22121)\u00d7100\u2248-1%.",
+      "hints": [
+        "Translate to multipliers.",
+        "Multiply, then convert back to percent."
+      ],
+      "keywords": [
+        "percent",
+        "multiplier"
+      ]
+    },
+    {
+      "id": "V-SC-MOD-12",
+      "type": "SC",
+      "section": "Verbal",
+      "difficulty": 1,
+      "tags": [
+        "SC",
+        "Modifiers",
+        "Conciseness"
+      ],
+      "stem": "Select the best version of the sentence.",
+      "options": [
+        "The committee, meeting late into the night, they concluded that the proposal, which was controversial, should be revised.",
+        "Meeting late into the night, the committee concluded that the controversial proposal should be revised.",
+        "The committee concluded, which was controversial, meeting late into the night, that the proposal should be revised.",
+        "Meeting late into the night, the controversial proposal was concluded to be revised by the committee.",
+        "The committee, meeting late into the night, concluded that the proposal should be revised controversially."
+      ],
+      "answerIndex": 1,
+      "explanation": "Option B removes the doubled subject and places modifiers next to what they modify; it's concise and active.",
+      "hints": [
+        "Avoid double subjects.",
+        "Place modifiers correctly."
+      ]
+    },
+    {
+      "id": "V-SC-MOD-11",
+      "type": "SC",
+      "section": "Verbal",
+      "difficulty": 1,
+      "tags": [
+        "SC",
+        "Modifiers",
+        "Conciseness"
+      ],
+      "stem": "Select the best version of the sentence.",
+      "options": [
+        "The committee, meeting late into the night, they concluded that the proposal, which was controversial, should be revised.",
+        "Meeting late into the night, the committee concluded that the controversial proposal should be revised.",
+        "The committee concluded, which was controversial, meeting late into the night, that the proposal should be revised.",
+        "Meeting late into the night, the controversial proposal was concluded to be revised by the committee.",
+        "The committee, meeting late into the night, concluded that the proposal should be revised controversially."
+      ],
+      "answerIndex": 1,
+      "explanation": "Option B removes the doubled subject and places modifiers next to what they modify; it's concise and active.",
+      "hints": [
+        "Avoid double subjects.",
+        "Place modifiers correctly."
+      ]
+    },
+    {
+      "id": "Q-PS-RATE-3",
+      "type": "PS",
+      "section": "Quant",
+      "difficulty": 3,
+      "tags": [
+        "Rates",
+        "Work"
+      ],
+      "stem": "Machine A can finish a job in 10 hours and Machine B in 12 hours. Working together (constant rates), how long to finish the job?",
+      "options": [
+        "5.45 hours",
+        "4.36 hours",
+        "6.54 hours",
+        "4.91 hours",
+        "6.00 hours"
+      ],
+      "answerIndex": 0,
+      "explanation": "Add rates: 1/10+1/12=0.183. Time = 1/sum \u2248 5.45 hours.",
+      "hints": [
+        "Add rates, not times.",
+        "Use t = 1/(r_A + r_B)."
+      ],
+      "keywords": [
+        "rates",
+        "work"
+      ]
+    },
+    {
+      "id": "Q-DS-VAL-8",
+      "type": "DS",
+      "section": "Quant",
+      "difficulty": 1,
+      "tags": [
+        "Linear Equations",
+        "Data Sufficiency"
+      ],
+      "stem": "What is the value of x?",
+      "dsStatements": [
+        "(1) 2x + 4 = 27.",
+        "(2) x is an integer."
+      ],
+      "dsAnswer": "A",
+      "explanation": "(1) alone yields a single solution. (2) alone is not sufficient.",
+      "hints": [
+        "Try to solve directly from (1).",
+        "Check whether (2) restricts to one value."
+      ],
+      "keywords": [
+        "DS",
+        "solve"
+      ]
+    },
+    {
+      "id": "V-CR-WEAK-12",
+      "type": "CR",
+      "section": "Verbal",
+      "difficulty": 2,
+      "tags": [
+        "CR",
+        "Weaken",
+        "Causation"
+      ],
+      "passage": "Officials claim that the recent online ads significantly improved outcomes in public health. However, the data were collected during a period of unusual activity.",
+      "question": "Which of the following, if true, most seriously weakens the officials\u2019 claim?",
+      "options": [
+        "Independent reports show that another population segment largely accounts for the observed change.",
+        "A follow-up study used the same data and reached a similar conclusion.",
+        "The program was less expensive than earlier initiatives.",
+        "Some participants reported satisfaction with the program.",
+        "The agency plans to expand the program next year."
+      ],
+      "answerIndex": 0,
+      "explanation": "Pointing to an alternative cause that better explains the result undermines the causal claim.",
+      "hints": [
+        "Target the conclusion.",
+        "Look for an alternative cause or confounder."
+      ]
+    },
+    {
+      "id": "Q-PS-PCT-4",
+      "type": "PS",
+      "section": "Quant",
+      "difficulty": 2,
+      "tags": [
+        "Percent",
+        "Multipliers"
+      ],
+      "stem": "A price is increased by 40% and then decreased by 30%. What is the net percent change from the original price?",
+      "options": [
+        "-12%",
+        "-7%",
+        "-2%",
+        "+3%",
+        "+8%"
+      ],
+      "answerIndex": 2,
+      "explanation": "Use multipliers: \u00d71.40 then \u00d70.70. Net multiplier m=0.980; net change is (m\u22121)\u00d7100\u2248-2%.",
+      "hints": [
+        "Translate to multipliers.",
+        "Multiply, then convert back to percent."
+      ],
+      "keywords": [
+        "percent",
+        "multiplier"
+      ]
+    },
+    {
+      "id": "Q-PS-NP-6",
+      "type": "PS",
+      "section": "Quant",
+      "difficulty": 3,
+      "tags": [
+        "Number Theory",
+        "GCD/LCM"
+      ],
+      "stem": "For positive integers a and b, gcd(a,b)=9 and lcm(a,b)=90. What is ab?",
+      "options": [
+        "810",
+        "405",
+        "1620",
+        "804",
+        "816"
+      ],
+      "answerIndex": 0,
+      "explanation": "For integers, a\u00b7b = gcd(a,b) \u00d7 lcm(a,b).",
+      "hints": [
+        "Recall the product identity.",
+        "You don't need a and b individually."
+      ],
+      "keywords": [
+        "gcd",
+        "lcm",
+        "product"
+      ]
+    },
+    {
+      "id": "V-CR-WEAK-14",
+      "type": "CR",
+      "section": "Verbal",
+      "difficulty": 3,
+      "tags": [
+        "CR",
+        "Weaken",
+        "Causation"
+      ],
+      "passage": "Officials claim that the recent subsidy significantly improved outcomes in marketing. However, the data were collected during a period of unusual activity.",
+      "question": "Which of the following, if true, most seriously weakens the officials\u2019 claim?",
+      "options": [
+        "Independent reports show that macroeconomic trends largely accounts for the observed change.",
+        "A follow-up study used the same data and reached a similar conclusion.",
+        "The program was less expensive than earlier initiatives.",
+        "Some participants reported satisfaction with the program.",
+        "The agency plans to expand the program next year."
+      ],
+      "answerIndex": 0,
+      "explanation": "Pointing to an alternative cause that better explains the result undermines the causal claim.",
+      "hints": [
+        "Target the conclusion.",
+        "Look for an alternative cause or confounder."
+      ]
+    },
+    {
+      "id": "V-SC-MOD-5",
+      "type": "SC",
+      "section": "Verbal",
+      "difficulty": 1,
+      "tags": [
+        "SC",
+        "Modifiers",
+        "Conciseness"
+      ],
+      "stem": "Select the best version of the sentence.",
+      "options": [
+        "The committee, meeting late into the night, they concluded that the proposal, which was controversial, should be revised.",
+        "Meeting late into the night, the committee concluded that the controversial proposal should be revised.",
+        "The committee concluded, which was controversial, meeting late into the night, that the proposal should be revised.",
+        "Meeting late into the night, the controversial proposal was concluded to be revised by the committee.",
+        "The committee, meeting late into the night, concluded that the proposal should be revised controversially."
+      ],
+      "answerIndex": 1,
+      "explanation": "Option B removes the doubled subject and places modifiers next to what they modify; it's concise and active.",
+      "hints": [
+        "Avoid double subjects.",
+        "Place modifiers correctly."
+      ]
+    },
+    {
+      "id": "V-CR-WEAK-9",
+      "type": "CR",
+      "section": "Verbal",
+      "difficulty": 3,
+      "tags": [
+        "CR",
+        "Weaken",
+        "Causation"
+      ],
+      "passage": "Officials claim that the recent subsidy significantly improved outcomes in transport. However, the data were collected during a period of unusual activity.",
+      "question": "Which of the following, if true, most seriously weakens the officials\u2019 claim?",
+      "options": [
+        "Independent reports show that another population segment largely accounts for the observed change.",
+        "A follow-up study used the same data and reached a similar conclusion.",
+        "The program was less expensive than earlier initiatives.",
+        "Some participants reported satisfaction with the program.",
+        "The agency plans to expand the program next year."
+      ],
+      "answerIndex": 0,
+      "explanation": "Pointing to an alternative cause that better explains the result undermines the causal claim.",
+      "hints": [
+        "Target the conclusion.",
+        "Look for an alternative cause or confounder."
+      ]
+    },
+    {
+      "id": "Q-DS-VAL-1",
+      "type": "DS",
+      "section": "Quant",
+      "difficulty": 1,
+      "tags": [
+        "Linear Equations",
+        "Data Sufficiency"
+      ],
+      "stem": "What is the value of x?",
+      "dsStatements": [
+        "(1) 3x + 3 = 27.",
+        "(2) x is an integer."
+      ],
+      "dsAnswer": "A",
+      "explanation": "(1) alone yields a single solution. (2) alone is not sufficient.",
+      "hints": [
+        "Try to solve directly from (1).",
+        "Check whether (2) restricts to one value."
+      ],
+      "keywords": [
+        "DS",
+        "solve"
+      ]
+    },
+    {
+      "id": "Q-PS-ALG-7",
+      "type": "PS",
+      "section": "Quant",
+      "difficulty": 1,
+      "tags": [
+        "Linear Equations"
+      ],
+      "stem": "Solve for x: 3x + 4 = 30.",
+      "options": [
+        "8.67",
+        "9.67",
+        "7.67",
+        "10.67",
+        "6.67"
+      ],
+      "answerIndex": 0,
+      "explanation": "3x = 30-4 \u21d2 x=26/3 = 8.67.",
+      "hints": [
+        "Isolate x.",
+        "Subtract then divide."
+      ],
+      "keywords": [
+        "solve",
+        "linear"
+      ]
+    },
+    {
+      "id": "V-SC-MOD-15",
+      "type": "SC",
+      "section": "Verbal",
+      "difficulty": 1,
+      "tags": [
+        "SC",
+        "Modifiers",
+        "Conciseness"
+      ],
+      "stem": "Select the best version of the sentence.",
+      "options": [
+        "The committee, meeting late into the night, they concluded that the proposal, which was controversial, should be revised.",
+        "Meeting late into the night, the committee concluded that the controversial proposal should be revised.",
+        "The committee concluded, which was controversial, meeting late into the night, that the proposal should be revised.",
+        "Meeting late into the night, the controversial proposal was concluded to be revised by the committee.",
+        "The committee, meeting late into the night, concluded that the proposal should be revised controversially."
+      ],
+      "answerIndex": 1,
+      "explanation": "Option B removes the doubled subject and places modifiers next to what they modify; it's concise and active.",
+      "hints": [
+        "Avoid double subjects.",
+        "Place modifiers correctly."
+      ]
+    },
+    {
+      "id": "V-SC-MOD-14",
+      "type": "SC",
+      "section": "Verbal",
+      "difficulty": 1,
+      "tags": [
+        "SC",
+        "Modifiers",
+        "Conciseness"
+      ],
+      "stem": "Select the best version of the sentence.",
+      "options": [
+        "The committee, meeting late into the night, they concluded that the proposal, which was controversial, should be revised.",
+        "Meeting late into the night, the committee concluded that the controversial proposal should be revised.",
+        "The committee concluded, which was controversial, meeting late into the night, that the proposal should be revised.",
+        "Meeting late into the night, the controversial proposal was concluded to be revised by the committee.",
+        "The committee, meeting late into the night, concluded that the proposal should be revised controversially."
+      ],
+      "answerIndex": 1,
+      "explanation": "Option B removes the doubled subject and places modifiers next to what they modify; it's concise and active.",
+      "hints": [
+        "Avoid double subjects.",
+        "Place modifiers correctly."
+      ]
+    },
+    {
+      "id": "Q-DS-YN-12",
+      "type": "DS",
+      "section": "Quant",
+      "difficulty": 1,
+      "tags": [
+        "Inequalities",
+        "Data Sufficiency"
+      ],
+      "stem": "Is x > 0?",
+      "dsStatements": [
+        "(1) 6x > 0.",
+        "(2) x > -1."
+      ],
+      "dsAnswer": "A",
+      "explanation": "(1) implies x>0 directly; sufficient. (2) only gives x>-1, not enough.",
+      "hints": [
+        "Reduce each statement.",
+        "Check if the question is fully answered."
+      ],
+      "keywords": [
+        "DS",
+        "A"
+      ]
+    },
+    {
+      "id": "Q-DS-YN-9",
+      "type": "DS",
+      "section": "Quant",
+      "difficulty": 1,
+      "tags": [
+        "Inequalities",
+        "Data Sufficiency"
+      ],
+      "stem": "Is x > 0?",
+      "dsStatements": [
+        "(1) 5x > 0.",
+        "(2) x > -1."
+      ],
+      "dsAnswer": "A",
+      "explanation": "(1) implies x>0 directly; sufficient. (2) only gives x>-1, not enough.",
+      "hints": [
+        "Reduce each statement.",
+        "Check if the question is fully answered."
+      ],
+      "keywords": [
+        "DS",
+        "A"
+      ]
+    },
+    {
+      "id": "Q-PS-RATE-14",
+      "type": "PS",
+      "section": "Quant",
+      "difficulty": 2,
+      "tags": [
+        "Rates",
+        "Work"
+      ],
+      "stem": "Machine A can finish a job in 8 hours and Machine B in 6 hours. Working together (constant rates), how long to finish the job?",
+      "options": [
+        "3.43 hours",
+        "2.74 hours",
+        "4.12 hours",
+        "3.09 hours",
+        "3.77 hours"
+      ],
+      "answerIndex": 0,
+      "explanation": "Add rates: 1/8+1/6=0.292. Time = 1/sum \u2248 3.43 hours.",
+      "hints": [
+        "Add rates, not times.",
+        "Use t = 1/(r_A + r_B)."
+      ],
+      "keywords": [
+        "rates",
+        "work"
+      ]
+    },
+    {
+      "id": "V-CR-WEAK-5",
+      "type": "CR",
+      "section": "Verbal",
+      "difficulty": 3,
+      "tags": [
+        "CR",
+        "Weaken",
+        "Causation"
+      ],
+      "passage": "Officials claim that the recent online ads significantly improved outcomes in public health. However, the data were collected during a period of unusual activity.",
+      "question": "Which of the following, if true, most seriously weakens the officials\u2019 claim?",
+      "options": [
+        "Independent reports show that seasonal effects largely accounts for the observed change.",
+        "A follow-up study used the same data and reached a similar conclusion.",
+        "The program was less expensive than earlier initiatives.",
+        "Some participants reported satisfaction with the program.",
+        "The agency plans to expand the program next year."
+      ],
+      "answerIndex": 0,
+      "explanation": "Pointing to an alternative cause that better explains the result undermines the causal claim.",
+      "hints": [
+        "Target the conclusion.",
+        "Look for an alternative cause or confounder."
+      ]
+    },
+    {
+      "id": "Q-PS-RATE-4",
+      "type": "PS",
+      "section": "Quant",
+      "difficulty": 2,
+      "tags": [
+        "Rates",
+        "Work"
+      ],
+      "stem": "Machine A can finish a job in 6 hours and Machine B in 4 hours. Working together (constant rates), how long to finish the job?",
+      "options": [
+        "2.40 hours",
+        "1.92 hours",
+        "2.88 hours",
+        "2.16 hours",
+        "2.64 hours"
+      ],
+      "answerIndex": 0,
+      "explanation": "Add rates: 1/6+1/4=0.417. Time = 1/sum \u2248 2.40 hours.",
+      "hints": [
+        "Add rates, not times.",
+        "Use t = 1/(r_A + r_B)."
+      ],
+      "keywords": [
+        "rates",
+        "work"
+      ]
+    },
+    {
+      "id": "V-CR-WEAK-7",
+      "type": "CR",
+      "section": "Verbal",
+      "difficulty": 3,
+      "tags": [
+        "CR",
+        "Weaken",
+        "Causation"
+      ],
+      "passage": "Officials claim that the recent new law significantly improved outcomes in marketing. However, the data were collected during a period of unusual activity.",
+      "question": "Which of the following, if true, most seriously weakens the officials\u2019 claim?",
+      "options": [
+        "Independent reports show that data misclassification largely accounts for the observed change.",
+        "A follow-up study used the same data and reached a similar conclusion.",
+        "The program was less expensive than earlier initiatives.",
+        "Some participants reported satisfaction with the program.",
+        "The agency plans to expand the program next year."
+      ],
+      "answerIndex": 0,
+      "explanation": "Pointing to an alternative cause that better explains the result undermines the causal claim.",
+      "hints": [
+        "Target the conclusion.",
+        "Look for an alternative cause or confounder."
+      ]
+    },
+    {
+      "id": "V-CR-WEAK-1",
+      "type": "CR",
+      "section": "Verbal",
+      "difficulty": 2,
+      "tags": [
+        "CR",
+        "Weaken",
+        "Causation"
+      ],
+      "passage": "Officials claim that the recent subsidy significantly improved outcomes in education. However, the data were collected during a period of unusual activity.",
+      "question": "Which of the following, if true, most seriously weakens the officials\u2019 claim?",
+      "options": [
+        "Independent reports show that data misclassification largely accounts for the observed change.",
+        "A follow-up study used the same data and reached a similar conclusion.",
+        "The program was less expensive than earlier initiatives.",
+        "Some participants reported satisfaction with the program.",
+        "The agency plans to expand the program next year."
+      ],
+      "answerIndex": 0,
+      "explanation": "Pointing to an alternative cause that better explains the result undermines the causal claim.",
+      "hints": [
+        "Target the conclusion.",
+        "Look for an alternative cause or confounder."
+      ]
+    },
+    {
+      "id": "Q-DS-YN-2",
+      "type": "DS",
+      "section": "Quant",
+      "difficulty": 1,
+      "tags": [
+        "Inequalities",
+        "Data Sufficiency"
+      ],
+      "stem": "Is x > 0?",
+      "dsStatements": [
+        "(1) 8x > 0.",
+        "(2) x > -1."
+      ],
+      "dsAnswer": "A",
+      "explanation": "(1) implies x>0 directly; sufficient. (2) only gives x>-1, not enough.",
+      "hints": [
+        "Reduce each statement.",
+        "Check if the question is fully answered."
+      ],
+      "keywords": [
+        "DS",
+        "A"
+      ]
+    },
+    {
+      "id": "Q-PS-RATE-8",
+      "type": "PS",
+      "section": "Quant",
+      "difficulty": 2,
+      "tags": [
+        "Rates",
+        "Work"
+      ],
+      "stem": "Machine A can finish a job in 8 hours and Machine B in 6 hours. Working together (constant rates), how long to finish the job?",
+      "options": [
+        "3.43 hours",
+        "2.74 hours",
+        "4.12 hours",
+        "3.09 hours",
+        "3.77 hours"
+      ],
+      "answerIndex": 0,
+      "explanation": "Add rates: 1/8+1/6=0.292. Time = 1/sum \u2248 3.43 hours.",
+      "hints": [
+        "Add rates, not times.",
+        "Use t = 1/(r_A + r_B)."
+      ],
+      "keywords": [
+        "rates",
+        "work"
+      ]
+    },
+    {
+      "id": "V-SC-MOD-8",
+      "type": "SC",
+      "section": "Verbal",
+      "difficulty": 2,
+      "tags": [
+        "SC",
+        "Modifiers",
+        "Conciseness"
+      ],
+      "stem": "Select the best version of the sentence.",
+      "options": [
+        "The committee, meeting late into the night, they concluded that the proposal, which was controversial, should be revised.",
+        "Meeting late into the night, the committee concluded that the controversial proposal should be revised.",
+        "The committee concluded, which was controversial, meeting late into the night, that the proposal should be revised.",
+        "Meeting late into the night, the controversial proposal was concluded to be revised by the committee.",
+        "The committee, meeting late into the night, concluded that the proposal should be revised controversially."
+      ],
+      "answerIndex": 1,
+      "explanation": "Option B removes the doubled subject and places modifiers next to what they modify; it's concise and active.",
+      "hints": [
+        "Avoid double subjects.",
+        "Place modifiers correctly."
+      ]
+    },
+    {
+      "id": "Q-PS-RATE-2",
+      "type": "PS",
+      "section": "Quant",
+      "difficulty": 3,
+      "tags": [
+        "Rates",
+        "Work"
+      ],
+      "stem": "Machine A can finish a job in 2 hours and Machine B in 12 hours. Working together (constant rates), how long to finish the job?",
+      "options": [
+        "1.71 hours",
+        "1.37 hours",
+        "2.05 hours",
+        "1.54 hours",
+        "1.88 hours"
+      ],
+      "answerIndex": 0,
+      "explanation": "Add rates: 1/2+1/12=0.583. Time = 1/sum \u2248 1.71 hours.",
+      "hints": [
+        "Add rates, not times.",
+        "Use t = 1/(r_A + r_B)."
+      ],
+      "keywords": [
+        "rates",
+        "work"
+      ]
+    },
+    {
+      "id": "Q-PS-ALG-4",
+      "type": "PS",
+      "section": "Quant",
+      "difficulty": 1,
+      "tags": [
+        "Linear Equations"
+      ],
+      "stem": "Solve for x: 4x + 4 = 30.",
+      "options": [
+        "6.5",
+        "7.5",
+        "5.5",
+        "8.5",
+        "4.5"
+      ],
+      "answerIndex": 0,
+      "explanation": "4x = 30-4 \u21d2 x=26/4 = 6.50.",
+      "hints": [
+        "Isolate x.",
+        "Subtract then divide."
+      ],
+      "keywords": [
+        "solve",
+        "linear"
+      ]
+    },
+    {
+      "id": "Q-PS-PCT-14",
+      "type": "PS",
+      "section": "Quant",
+      "difficulty": 3,
+      "tags": [
+        "Percent",
+        "Multipliers"
+      ],
+      "stem": "A price is increased by 20% and then decreased by 15%. What is the net percent change from the original price?",
+      "options": [
+        "-8%",
+        "-3%",
+        "+2%",
+        "+7%",
+        "+12%"
+      ],
+      "answerIndex": 2,
+      "explanation": "Use multipliers: \u00d71.20 then \u00d70.85. Net multiplier m=1.020; net change is (m\u22121)\u00d7100\u22482%.",
+      "hints": [
+        "Translate to multipliers.",
+        "Multiply, then convert back to percent."
+      ],
+      "keywords": [
+        "percent",
+        "multiplier"
+      ]
+    },
+    {
+      "id": "Q-PS-ALG-6",
+      "type": "PS",
+      "section": "Quant",
+      "difficulty": 1,
+      "tags": [
+        "Linear Equations"
+      ],
+      "stem": "Solve for x: 5x + 4 = 20.",
+      "options": [
+        "3.2",
+        "4.2",
+        "2.2",
+        "5.2",
+        "1.2"
+      ],
+      "answerIndex": 0,
+      "explanation": "5x = 20-4 \u21d2 x=16/5 = 3.20.",
+      "hints": [
+        "Isolate x.",
+        "Subtract then divide."
+      ],
+      "keywords": [
+        "solve",
+        "linear"
+      ]
+    },
+    {
+      "id": "Q-DS-YN-8",
+      "type": "DS",
+      "section": "Quant",
+      "difficulty": 1,
+      "tags": [
+        "Inequalities",
+        "Data Sufficiency"
+      ],
+      "stem": "Is x > 1?",
+      "dsStatements": [
+        "(1) 5x > 5.",
+        "(2) x > 0."
+      ],
+      "dsAnswer": "A",
+      "explanation": "(1) implies x>1 directly; sufficient. (2) only gives x>0, not enough.",
+      "hints": [
+        "Reduce each statement.",
+        "Check if the question is fully answered."
+      ],
+      "keywords": [
+        "DS",
+        "A"
+      ]
+    },
+    {
+      "id": "V-CR-WEAK-16",
+      "type": "CR",
+      "section": "Verbal",
+      "difficulty": 2,
+      "tags": [
+        "CR",
+        "Weaken",
+        "Causation"
+      ],
+      "passage": "Officials claim that the recent subsidy significantly improved outcomes in public health. However, the data were collected during a period of unusual activity.",
+      "question": "Which of the following, if true, most seriously weakens the officials\u2019 claim?",
+      "options": [
+        "Independent reports show that measurement error largely accounts for the observed change.",
+        "A follow-up study used the same data and reached a similar conclusion.",
+        "The program was less expensive than earlier initiatives.",
+        "Some participants reported satisfaction with the program.",
+        "The agency plans to expand the program next year."
+      ],
+      "answerIndex": 0,
+      "explanation": "Pointing to an alternative cause that better explains the result undermines the causal claim.",
+      "hints": [
+        "Target the conclusion.",
+        "Look for an alternative cause or confounder."
+      ]
+    },
+    {
+      "id": "V-SC-MOD-16",
+      "type": "SC",
+      "section": "Verbal",
+      "difficulty": 1,
+      "tags": [
+        "SC",
+        "Modifiers",
+        "Conciseness"
+      ],
+      "stem": "Select the best version of the sentence.",
+      "options": [
+        "The committee, meeting late into the night, they concluded that the proposal, which was controversial, should be revised.",
+        "Meeting late into the night, the committee concluded that the controversial proposal should be revised.",
+        "The committee concluded, which was controversial, meeting late into the night, that the proposal should be revised.",
+        "Meeting late into the night, the controversial proposal was concluded to be revised by the committee.",
+        "The committee, meeting late into the night, concluded that the proposal should be revised controversially."
+      ],
+      "answerIndex": 1,
+      "explanation": "Option B removes the doubled subject and places modifiers next to what they modify; it's concise and active.",
+      "hints": [
+        "Avoid double subjects.",
+        "Place modifiers correctly."
+      ]
+    },
+    {
+      "id": "Q-PS-NP-1",
+      "type": "PS",
+      "section": "Quant",
+      "difficulty": 3,
+      "tags": [
+        "Number Theory",
+        "GCD/LCM"
+      ],
+      "stem": "For positive integers a and b, gcd(a,b)=5 and lcm(a,b)=40. What is ab?",
+      "options": [
+        "200",
+        "100",
+        "400",
+        "194",
+        "206"
+      ],
+      "answerIndex": 0,
+      "explanation": "For integers, a\u00b7b = gcd(a,b) \u00d7 lcm(a,b).",
+      "hints": [
+        "Recall the product identity.",
+        "You don't need a and b individually."
+      ],
+      "keywords": [
+        "gcd",
+        "lcm",
+        "product"
+      ]
+    },
+    {
+      "id": "V-SC-MOD-17",
+      "type": "SC",
+      "section": "Verbal",
+      "difficulty": 1,
+      "tags": [
+        "SC",
+        "Modifiers",
+        "Conciseness"
+      ],
+      "stem": "Select the best version of the sentence.",
+      "options": [
+        "The committee, meeting late into the night, they concluded that the proposal, which was controversial, should be revised.",
+        "Meeting late into the night, the committee concluded that the controversial proposal should be revised.",
+        "The committee concluded, which was controversial, meeting late into the night, that the proposal should be revised.",
+        "Meeting late into the night, the controversial proposal was concluded to be revised by the committee.",
+        "The committee, meeting late into the night, concluded that the proposal should be revised controversially."
+      ],
+      "answerIndex": 1,
+      "explanation": "Option B removes the doubled subject and places modifiers next to what they modify; it's concise and active.",
+      "hints": [
+        "Avoid double subjects.",
+        "Place modifiers correctly."
+      ]
+    },
+    {
+      "id": "Q-PS-PCT-1",
+      "type": "PS",
+      "section": "Quant",
+      "difficulty": 2,
+      "tags": [
+        "Percent",
+        "Multipliers"
+      ],
+      "stem": "A price is increased by 40% and then decreased by 5%. What is the net percent change from the original price?",
+      "options": [
+        "+23%",
+        "+28%",
+        "+33%",
+        "+38%",
+        "+43%"
+      ],
+      "answerIndex": 2,
+      "explanation": "Use multipliers: \u00d71.40 then \u00d70.95. Net multiplier m=1.330; net change is (m\u22121)\u00d7100\u224833%.",
+      "hints": [
+        "Translate to multipliers.",
+        "Multiply, then convert back to percent."
+      ],
+      "keywords": [
+        "percent",
+        "multiplier"
+      ]
+    },
+    {
+      "id": "Q-PS-PCT-5",
+      "type": "PS",
+      "section": "Quant",
+      "difficulty": 2,
+      "tags": [
+        "Percent",
+        "Multipliers"
+      ],
+      "stem": "A price is increased by 30% and then decreased by 20%. What is the net percent change from the original price?",
+      "options": [
+        "-6%",
+        "-1%",
+        "+4%",
+        "+9%",
+        "+14%"
+      ],
+      "answerIndex": 2,
+      "explanation": "Use multipliers: \u00d71.30 then \u00d70.80. Net multiplier m=1.040; net change is (m\u22121)\u00d7100\u22484%.",
+      "hints": [
+        "Translate to multipliers.",
+        "Multiply, then convert back to percent."
+      ],
+      "keywords": [
+        "percent",
+        "multiplier"
+      ]
+    },
+    {
+      "id": "Q-DS-YN-1",
+      "type": "DS",
+      "section": "Quant",
+      "difficulty": 1,
+      "tags": [
+        "Inequalities",
+        "Data Sufficiency"
+      ],
+      "stem": "Is x > 4?",
+      "dsStatements": [
+        "(1) 4x > 16.",
+        "(2) x > 3."
+      ],
+      "dsAnswer": "A",
+      "explanation": "(1) implies x>4 directly; sufficient. (2) only gives x>3, not enough.",
+      "hints": [
+        "Reduce each statement.",
+        "Check if the question is fully answered."
+      ],
+      "keywords": [
+        "DS",
+        "A"
+      ]
+    },
+    {
+      "id": "V-CR-WEAK-11",
+      "type": "CR",
+      "section": "Verbal",
+      "difficulty": 3,
+      "tags": [
+        "CR",
+        "Weaken",
+        "Causation"
+      ],
+      "passage": "Officials claim that the recent subsidy significantly improved outcomes in energy policy. However, the data were collected during a period of unusual activity.",
+      "question": "Which of the following, if true, most seriously weakens the officials\u2019 claim?",
+      "options": [
+        "Independent reports show that another population segment largely accounts for the observed change.",
+        "A follow-up study used the same data and reached a similar conclusion.",
+        "The program was less expensive than earlier initiatives.",
+        "Some participants reported satisfaction with the program.",
+        "The agency plans to expand the program next year."
+      ],
+      "answerIndex": 0,
+      "explanation": "Pointing to an alternative cause that better explains the result undermines the causal claim.",
+      "hints": [
+        "Target the conclusion.",
+        "Look for an alternative cause or confounder."
+      ]
+    },
+    {
+      "id": "Q-PS-ALG-1",
+      "type": "PS",
+      "section": "Quant",
+      "difficulty": 1,
+      "tags": [
+        "Linear Equations"
+      ],
+      "stem": "Solve for x: 3x + 3 = 20.",
+      "options": [
+        "5.67",
+        "6.67",
+        "4.67",
+        "7.67",
+        "3.67"
+      ],
+      "answerIndex": 0,
+      "explanation": "3x = 20-3 \u21d2 x=17/3 = 5.67.",
+      "hints": [
+        "Isolate x.",
+        "Subtract then divide."
+      ],
+      "keywords": [
+        "solve",
+        "linear"
+      ]
+    },
+    {
+      "id": "V-SC-MOD-7",
+      "type": "SC",
+      "section": "Verbal",
+      "difficulty": 2,
+      "tags": [
+        "SC",
+        "Modifiers",
+        "Conciseness"
+      ],
+      "stem": "Select the best version of the sentence.",
+      "options": [
+        "The committee, meeting late into the night, they concluded that the proposal, which was controversial, should be revised.",
+        "Meeting late into the night, the committee concluded that the controversial proposal should be revised.",
+        "The committee concluded, which was controversial, meeting late into the night, that the proposal should be revised.",
+        "Meeting late into the night, the controversial proposal was concluded to be revised by the committee.",
+        "The committee, meeting late into the night, concluded that the proposal should be revised controversially."
+      ],
+      "answerIndex": 1,
+      "explanation": "Option B removes the doubled subject and places modifiers next to what they modify; it's concise and active.",
+      "hints": [
+        "Avoid double subjects.",
+        "Place modifiers correctly."
+      ]
+    },
+    {
+      "id": "Q-PS-NP-3",
+      "type": "PS",
+      "section": "Quant",
+      "difficulty": 3,
+      "tags": [
+        "Number Theory",
+        "GCD/LCM"
+      ],
+      "stem": "For positive integers a and b, gcd(a,b)=3 and lcm(a,b)=30. What is ab?",
+      "options": [
+        "90",
+        "45",
+        "180",
+        "84",
+        "96"
+      ],
+      "answerIndex": 0,
+      "explanation": "For integers, a\u00b7b = gcd(a,b) \u00d7 lcm(a,b).",
+      "hints": [
+        "Recall the product identity.",
+        "You don't need a and b individually."
+      ],
+      "keywords": [
+        "gcd",
+        "lcm",
+        "product"
+      ]
+    },
+    {
+      "id": "Q-PS-NP-4",
+      "type": "PS",
+      "section": "Quant",
+      "difficulty": 3,
+      "tags": [
+        "Number Theory",
+        "GCD/LCM"
+      ],
+      "stem": "For positive integers a and b, gcd(a,b)=3 and lcm(a,b)=40. What is ab?",
+      "options": [
+        "120",
+        "60",
+        "240",
+        "114",
+        "126"
+      ],
+      "answerIndex": 0,
+      "explanation": "For integers, a\u00b7b = gcd(a,b) \u00d7 lcm(a,b).",
+      "hints": [
+        "Recall the product identity.",
+        "You don't need a and b individually."
+      ],
+      "keywords": [
+        "gcd",
+        "lcm",
+        "product"
+      ]
+    },
+    {
+      "id": "V-CR-WEAK-4",
+      "type": "CR",
+      "section": "Verbal",
+      "difficulty": 2,
+      "tags": [
+        "CR",
+        "Weaken",
+        "Causation"
+      ],
+      "passage": "Officials claim that the recent ban significantly improved outcomes in marketing. However, the data were collected during a period of unusual activity.",
+      "question": "Which of the following, if true, most seriously weakens the officials\u2019 claim?",
+      "options": [
+        "Independent reports show that macroeconomic trends largely accounts for the observed change.",
+        "A follow-up study used the same data and reached a similar conclusion.",
+        "The program was less expensive than earlier initiatives.",
+        "Some participants reported satisfaction with the program.",
+        "The agency plans to expand the program next year."
+      ],
+      "answerIndex": 0,
+      "explanation": "Pointing to an alternative cause that better explains the result undermines the causal claim.",
+      "hints": [
+        "Target the conclusion.",
+        "Look for an alternative cause or confounder."
+      ]
+    },
+    {
+      "id": "Q-DS-YN-3",
+      "type": "DS",
+      "section": "Quant",
+      "difficulty": 1,
+      "tags": [
+        "Inequalities",
+        "Data Sufficiency"
+      ],
+      "stem": "Is x > 0?",
+      "dsStatements": [
+        "(1) 7x > 0.",
+        "(2) x > -1."
+      ],
+      "dsAnswer": "A",
+      "explanation": "(1) implies x>0 directly; sufficient. (2) only gives x>-1, not enough.",
+      "hints": [
+        "Reduce each statement.",
+        "Check if the question is fully answered."
+      ],
+      "keywords": [
+        "DS",
+        "A"
+      ]
+    },
+    {
+      "id": "Q-DS-VAL-6",
+      "type": "DS",
+      "section": "Quant",
+      "difficulty": 1,
+      "tags": [
+        "Linear Equations",
+        "Data Sufficiency"
+      ],
+      "stem": "What is the value of x?",
+      "dsStatements": [
+        "(1) 4x + 2 = 9.",
+        "(2) x is an integer."
+      ],
+      "dsAnswer": "A",
+      "explanation": "(1) alone yields a single solution. (2) alone is not sufficient.",
+      "hints": [
+        "Try to solve directly from (1).",
+        "Check whether (2) restricts to one value."
+      ],
+      "keywords": [
+        "DS",
+        "solve"
+      ]
+    },
+    {
+      "id": "V-CR-WEAK-3",
+      "type": "CR",
+      "section": "Verbal",
+      "difficulty": 2,
+      "tags": [
+        "CR",
+        "Weaken",
+        "Causation"
+      ],
+      "passage": "Officials claim that the recent online ads significantly improved outcomes in transport. However, the data were collected during a period of unusual activity.",
+      "question": "Which of the following, if true, most seriously weakens the officials\u2019 claim?",
+      "options": [
+        "Independent reports show that data misclassification largely accounts for the observed change.",
+        "A follow-up study used the same data and reached a similar conclusion.",
+        "The program was less expensive than earlier initiatives.",
+        "Some participants reported satisfaction with the program.",
+        "The agency plans to expand the program next year."
+      ],
+      "answerIndex": 0,
+      "explanation": "Pointing to an alternative cause that better explains the result undermines the causal claim.",
+      "hints": [
+        "Target the conclusion.",
+        "Look for an alternative cause or confounder."
+      ]
+    },
+    {
+      "id": "V-CR-WEAK-20",
+      "type": "CR",
+      "section": "Verbal",
+      "difficulty": 2,
+      "tags": [
+        "CR",
+        "Weaken",
+        "Causation"
+      ],
+      "passage": "Officials claim that the recent subsidy significantly improved outcomes in transport. However, the data were collected during a period of unusual activity.",
+      "question": "Which of the following, if true, most seriously weakens the officials\u2019 claim?",
+      "options": [
+        "Independent reports show that seasonal effects largely accounts for the observed change.",
+        "A follow-up study used the same data and reached a similar conclusion.",
+        "The program was less expensive than earlier initiatives.",
+        "Some participants reported satisfaction with the program.",
+        "The agency plans to expand the program next year."
+      ],
+      "answerIndex": 0,
+      "explanation": "Pointing to an alternative cause that better explains the result undermines the causal claim.",
+      "hints": [
+        "Target the conclusion.",
+        "Look for an alternative cause or confounder."
+      ]
+    },
+    {
+      "id": "Q-PS-RATE-12",
+      "type": "PS",
+      "section": "Quant",
+      "difficulty": 3,
+      "tags": [
+        "Rates",
+        "Work"
+      ],
+      "stem": "Machine A can finish a job in 3 hours and Machine B in 9 hours. Working together (constant rates), how long to finish the job?",
+      "options": [
+        "2.25 hours",
+        "1.80 hours",
+        "2.70 hours",
+        "2.02 hours",
+        "2.48 hours"
+      ],
+      "answerIndex": 0,
+      "explanation": "Add rates: 1/3+1/9=0.444. Time = 1/sum \u2248 2.25 hours.",
+      "hints": [
+        "Add rates, not times.",
+        "Use t = 1/(r_A + r_B)."
+      ],
+      "keywords": [
+        "rates",
+        "work"
+      ]
+    },
+    {
+      "id": "V-SC-MOD-20",
+      "type": "SC",
+      "section": "Verbal",
+      "difficulty": 1,
+      "tags": [
+        "SC",
+        "Modifiers",
+        "Conciseness"
+      ],
+      "stem": "Select the best version of the sentence.",
+      "options": [
+        "The committee, meeting late into the night, they concluded that the proposal, which was controversial, should be revised.",
+        "Meeting late into the night, the committee concluded that the controversial proposal should be revised.",
+        "The committee concluded, which was controversial, meeting late into the night, that the proposal should be revised.",
+        "Meeting late into the night, the controversial proposal was concluded to be revised by the committee.",
+        "The committee, meeting late into the night, concluded that the proposal should be revised controversially."
+      ],
+      "answerIndex": 1,
+      "explanation": "Option B removes the doubled subject and places modifiers next to what they modify; it's concise and active.",
+      "hints": [
+        "Avoid double subjects.",
+        "Place modifiers correctly."
+      ]
+    },
+    {
+      "id": "V-SC-MOD-1",
+      "type": "SC",
+      "section": "Verbal",
+      "difficulty": 2,
+      "tags": [
+        "SC",
+        "Modifiers",
+        "Conciseness"
+      ],
+      "stem": "Select the best version of the sentence.",
+      "options": [
+        "The committee, meeting late into the night, they concluded that the proposal, which was controversial, should be revised.",
+        "Meeting late into the night, the committee concluded that the controversial proposal should be revised.",
+        "The committee concluded, which was controversial, meeting late into the night, that the proposal should be revised.",
+        "Meeting late into the night, the controversial proposal was concluded to be revised by the committee.",
+        "The committee, meeting late into the night, concluded that the proposal should be revised controversially."
+      ],
+      "answerIndex": 1,
+      "explanation": "Option B removes the doubled subject and places modifiers next to what they modify; it's concise and active.",
+      "hints": [
+        "Avoid double subjects.",
+        "Place modifiers correctly."
+      ]
+    },
+    {
+      "id": "Q-DS-VAL-4",
+      "type": "DS",
+      "section": "Quant",
+      "difficulty": 1,
+      "tags": [
+        "Linear Equations",
+        "Data Sufficiency"
+      ],
+      "stem": "What is the value of x?",
+      "dsStatements": [
+        "(1) 4x + 4 = 9.",
+        "(2) x is an integer."
+      ],
+      "dsAnswer": "A",
+      "explanation": "(1) alone yields a single solution. (2) alone is not sufficient.",
+      "hints": [
+        "Try to solve directly from (1).",
+        "Check whether (2) restricts to one value."
+      ],
+      "keywords": [
+        "DS",
+        "solve"
+      ]
+    },
+    {
+      "id": "Q-DS-YN-6",
+      "type": "DS",
+      "section": "Quant",
+      "difficulty": 1,
+      "tags": [
+        "Inequalities",
+        "Data Sufficiency"
+      ],
+      "stem": "Is x > 2?",
+      "dsStatements": [
+        "(1) 8x > 16.",
+        "(2) x > 1."
+      ],
+      "dsAnswer": "A",
+      "explanation": "(1) implies x>2 directly; sufficient. (2) only gives x>1, not enough.",
+      "hints": [
+        "Reduce each statement.",
+        "Check if the question is fully answered."
+      ],
+      "keywords": [
+        "DS",
+        "A"
+      ]
+    },
+    {
+      "id": "V-SC-MOD-10",
+      "type": "SC",
+      "section": "Verbal",
+      "difficulty": 1,
+      "tags": [
+        "SC",
+        "Modifiers",
+        "Conciseness"
+      ],
+      "stem": "Select the best version of the sentence.",
+      "options": [
+        "The committee, meeting late into the night, they concluded that the proposal, which was controversial, should be revised.",
+        "Meeting late into the night, the committee concluded that the controversial proposal should be revised.",
+        "The committee concluded, which was controversial, meeting late into the night, that the proposal should be revised.",
+        "Meeting late into the night, the controversial proposal was concluded to be revised by the committee.",
+        "The committee, meeting late into the night, concluded that the proposal should be revised controversially."
+      ],
+      "answerIndex": 1,
+      "explanation": "Option B removes the doubled subject and places modifiers next to what they modify; it's concise and active.",
+      "hints": [
+        "Avoid double subjects.",
+        "Place modifiers correctly."
+      ]
+    },
+    {
+      "id": "Q-PS-PCT-6",
+      "type": "PS",
+      "section": "Quant",
+      "difficulty": 2,
+      "tags": [
+        "Percent",
+        "Multipliers"
+      ],
+      "stem": "A price is increased by 10% and then decreased by 5%. What is the net percent change from the original price?",
+      "options": [
+        "-6%",
+        "-1%",
+        "+4%",
+        "+9%",
+        "+14%"
+      ],
+      "answerIndex": 2,
+      "explanation": "Use multipliers: \u00d71.10 then \u00d70.95. Net multiplier m=1.045; net change is (m\u22121)\u00d7100\u22484%.",
+      "hints": [
+        "Translate to multipliers.",
+        "Multiply, then convert back to percent."
+      ],
+      "keywords": [
+        "percent",
+        "multiplier"
+      ]
+    },
+    {
+      "id": "V-SC-MOD-9",
+      "type": "SC",
+      "section": "Verbal",
+      "difficulty": 1,
+      "tags": [
+        "SC",
+        "Modifiers",
+        "Conciseness"
+      ],
+      "stem": "Select the best version of the sentence.",
+      "options": [
+        "The committee, meeting late into the night, they concluded that the proposal, which was controversial, should be revised.",
+        "Meeting late into the night, the committee concluded that the controversial proposal should be revised.",
+        "The committee concluded, which was controversial, meeting late into the night, that the proposal should be revised.",
+        "Meeting late into the night, the controversial proposal was concluded to be revised by the committee.",
+        "The committee, meeting late into the night, concluded that the proposal should be revised controversially."
+      ],
+      "answerIndex": 1,
+      "explanation": "Option B removes the doubled subject and places modifiers next to what they modify; it's concise and active.",
+      "hints": [
+        "Avoid double subjects.",
+        "Place modifiers correctly."
+      ]
+    },
+    {
+      "id": "Q-PS-ALG-3",
+      "type": "PS",
+      "section": "Quant",
+      "difficulty": 1,
+      "tags": [
+        "Linear Equations"
+      ],
+      "stem": "Solve for x: 3x + 7 = 30.",
+      "options": [
+        "7.67",
+        "8.67",
+        "6.67",
+        "9.67",
+        "5.67"
+      ],
+      "answerIndex": 0,
+      "explanation": "3x = 30-7 \u21d2 x=23/3 = 7.67.",
+      "hints": [
+        "Isolate x.",
+        "Subtract then divide."
+      ],
+      "keywords": [
+        "solve",
+        "linear"
+      ]
+    },
+    {
+      "id": "Q-DS-VAL-10",
+      "type": "DS",
+      "section": "Quant",
+      "difficulty": 1,
+      "tags": [
+        "Linear Equations",
+        "Data Sufficiency"
+      ],
+      "stem": "What is the value of x?",
+      "dsStatements": [
+        "(1) 3x + 2 = 24.",
+        "(2) x is an integer."
+      ],
+      "dsAnswer": "A",
+      "explanation": "(1) alone yields a single solution. (2) alone is not sufficient.",
+      "hints": [
+        "Try to solve directly from (1).",
+        "Check whether (2) restricts to one value."
+      ],
+      "keywords": [
+        "DS",
+        "solve"
+      ]
+    },
+    {
+      "id": "Q-PS-RATE-1",
+      "type": "PS",
+      "section": "Quant",
+      "difficulty": 3,
+      "tags": [
+        "Rates",
+        "Work"
+      ],
+      "stem": "Machine A can finish a job in 6 hours and Machine B in 3 hours. Working together (constant rates), how long to finish the job?",
+      "options": [
+        "2.00 hours",
+        "1.60 hours",
+        "2.40 hours",
+        "1.80 hours",
+        "2.20 hours"
+      ],
+      "answerIndex": 0,
+      "explanation": "Add rates: 1/6+1/3=0.500. Time = 1/sum \u2248 2.00 hours.",
+      "hints": [
+        "Add rates, not times.",
+        "Use t = 1/(r_A + r_B)."
+      ],
+      "keywords": [
+        "rates",
+        "work"
+      ]
+    },
+    {
+      "id": "Q-DS-YN-4",
+      "type": "DS",
+      "section": "Quant",
+      "difficulty": 1,
+      "tags": [
+        "Inequalities",
+        "Data Sufficiency"
+      ],
+      "stem": "Is x > 4?",
+      "dsStatements": [
+        "(1) 7x > 28.",
+        "(2) x > 3."
+      ],
+      "dsAnswer": "A",
+      "explanation": "(1) implies x>4 directly; sufficient. (2) only gives x>3, not enough.",
+      "hints": [
+        "Reduce each statement.",
+        "Check if the question is fully answered."
+      ],
+      "keywords": [
+        "DS",
+        "A"
+      ]
+    },
+    {
+      "id": "Q-PS-ALG-2",
+      "type": "PS",
+      "section": "Quant",
+      "difficulty": 1,
+      "tags": [
+        "Linear Equations"
+      ],
+      "stem": "Solve for x: 5x + 5 = 15.",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "4",
+        "0"
+      ],
+      "answerIndex": 0,
+      "explanation": "5x = 15-5 \u21d2 x=10/5 = 2.00.",
+      "hints": [
+        "Isolate x.",
+        "Subtract then divide."
+      ],
+      "keywords": [
+        "solve",
+        "linear"
+      ]
+    },
+    {
+      "id": "V-CR-WEAK-6",
+      "type": "CR",
+      "section": "Verbal",
+      "difficulty": 3,
+      "tags": [
+        "CR",
+        "Weaken",
+        "Causation"
+      ],
+      "passage": "Officials claim that the recent online ads significantly improved outcomes in public health. However, the data were collected during a period of unusual activity.",
+      "question": "Which of the following, if true, most seriously weakens the officials\u2019 claim?",
+      "options": [
+        "Independent reports show that data misclassification largely accounts for the observed change.",
+        "A follow-up study used the same data and reached a similar conclusion.",
+        "The program was less expensive than earlier initiatives.",
+        "Some participants reported satisfaction with the program.",
+        "The agency plans to expand the program next year."
+      ],
+      "answerIndex": 0,
+      "explanation": "Pointing to an alternative cause that better explains the result undermines the causal claim.",
+      "hints": [
+        "Target the conclusion.",
+        "Look for an alternative cause or confounder."
+      ]
+    },
+    {
+      "id": "Q-DS-VAL-14",
+      "type": "DS",
+      "section": "Quant",
+      "difficulty": 1,
+      "tags": [
+        "Linear Equations",
+        "Data Sufficiency"
+      ],
+      "stem": "What is the value of x?",
+      "dsStatements": [
+        "(1) 6x + 2 = 24.",
+        "(2) x is an integer."
+      ],
+      "dsAnswer": "A",
+      "explanation": "(1) alone yields a single solution. (2) alone is not sufficient.",
+      "hints": [
+        "Try to solve directly from (1).",
+        "Check whether (2) restricts to one value."
+      ],
+      "keywords": [
+        "DS",
+        "solve"
+      ]
+    },
+    {
+      "id": "Q-PS-PCT-9",
+      "type": "PS",
+      "section": "Quant",
+      "difficulty": 3,
+      "tags": [
+        "Percent",
+        "Multipliers"
+      ],
+      "stem": "A price is increased by 15% and then decreased by 20%. What is the net percent change from the original price?",
+      "options": [
+        "-18%",
+        "-13%",
+        "-8%",
+        "-3%",
+        "+2%"
+      ],
+      "answerIndex": 2,
+      "explanation": "Use multipliers: \u00d71.15 then \u00d70.80. Net multiplier m=0.920; net change is (m\u22121)\u00d7100\u2248-8%.",
+      "hints": [
+        "Translate to multipliers.",
+        "Multiply, then convert back to percent."
+      ],
+      "keywords": [
+        "percent",
+        "multiplier"
+      ]
+    },
+    {
+      "id": "Q-PS-RATE-9",
+      "type": "PS",
+      "section": "Quant",
+      "difficulty": 2,
+      "tags": [
+        "Rates",
+        "Work"
+      ],
+      "stem": "Machine A can finish a job in 4 hours and Machine B in 6 hours. Working together (constant rates), how long to finish the job?",
+      "options": [
+        "2.40 hours",
+        "1.92 hours",
+        "2.88 hours",
+        "2.16 hours",
+        "2.64 hours"
+      ],
+      "answerIndex": 0,
+      "explanation": "Add rates: 1/4+1/6=0.417. Time = 1/sum \u2248 2.40 hours.",
+      "hints": [
+        "Add rates, not times.",
+        "Use t = 1/(r_A + r_B)."
+      ],
+      "keywords": [
+        "rates",
+        "work"
+      ]
+    },
+    {
+      "id": "Q-PS-PCT-11",
+      "type": "PS",
+      "section": "Quant",
+      "difficulty": 2,
+      "tags": [
+        "Percent",
+        "Multipliers"
+      ],
+      "stem": "A price is increased by 20% and then decreased by 15%. What is the net percent change from the original price?",
+      "options": [
+        "-8%",
+        "-3%",
+        "+2%",
+        "+7%",
+        "+12%"
+      ],
+      "answerIndex": 2,
+      "explanation": "Use multipliers: \u00d71.20 then \u00d70.85. Net multiplier m=1.020; net change is (m\u22121)\u00d7100\u22482%.",
+      "hints": [
+        "Translate to multipliers.",
+        "Multiply, then convert back to percent."
+      ],
+      "keywords": [
+        "percent",
+        "multiplier"
+      ]
+    },
+    {
+      "id": "Q-DS-VAL-3",
+      "type": "DS",
+      "section": "Quant",
+      "difficulty": 1,
+      "tags": [
+        "Linear Equations",
+        "Data Sufficiency"
+      ],
+      "stem": "What is the value of x?",
+      "dsStatements": [
+        "(1) 6x + 1 = 21.",
+        "(2) x is an integer."
+      ],
+      "dsAnswer": "A",
+      "explanation": "(1) alone yields a single solution. (2) alone is not sufficient.",
+      "hints": [
+        "Try to solve directly from (1).",
+        "Check whether (2) restricts to one value."
+      ],
+      "keywords": [
+        "DS",
+        "solve"
+      ]
+    },
+    {
+      "id": "V-SC-MOD-13",
+      "type": "SC",
+      "section": "Verbal",
+      "difficulty": 2,
+      "tags": [
+        "SC",
+        "Modifiers",
+        "Conciseness"
+      ],
+      "stem": "Select the best version of the sentence.",
+      "options": [
+        "The committee, meeting late into the night, they concluded that the proposal, which was controversial, should be revised.",
+        "Meeting late into the night, the committee concluded that the controversial proposal should be revised.",
+        "The committee concluded, which was controversial, meeting late into the night, that the proposal should be revised.",
+        "Meeting late into the night, the controversial proposal was concluded to be revised by the committee.",
+        "The committee, meeting late into the night, concluded that the proposal should be revised controversially."
+      ],
+      "answerIndex": 1,
+      "explanation": "Option B removes the doubled subject and places modifiers next to what they modify; it's concise and active.",
+      "hints": [
+        "Avoid double subjects.",
+        "Place modifiers correctly."
+      ]
+    },
+    {
+      "id": "Q-PS-RATE-6",
+      "type": "PS",
+      "section": "Quant",
+      "difficulty": 2,
+      "tags": [
+        "Rates",
+        "Work"
+      ],
+      "stem": "Machine A can finish a job in 2 hours and Machine B in 4 hours. Working together (constant rates), how long to finish the job?",
+      "options": [
+        "1.33 hours",
+        "1.06 hours",
+        "1.60 hours",
+        "1.20 hours",
+        "1.46 hours"
+      ],
+      "answerIndex": 0,
+      "explanation": "Add rates: 1/2+1/4=0.750. Time = 1/sum \u2248 1.33 hours.",
+      "hints": [
+        "Add rates, not times.",
+        "Use t = 1/(r_A + r_B)."
+      ],
+      "keywords": [
+        "rates",
+        "work"
+      ]
+    },
+    {
+      "id": "Q-DS-VAL-5",
+      "type": "DS",
+      "section": "Quant",
+      "difficulty": 1,
+      "tags": [
+        "Linear Equations",
+        "Data Sufficiency"
+      ],
+      "stem": "What is the value of x?",
+      "dsStatements": [
+        "(1) 2x + 3 = 27.",
+        "(2) x is an integer."
+      ],
+      "dsAnswer": "A",
+      "explanation": "(1) alone yields a single solution. (2) alone is not sufficient.",
+      "hints": [
+        "Try to solve directly from (1).",
+        "Check whether (2) restricts to one value."
+      ],
+      "keywords": [
+        "DS",
+        "solve"
+      ]
+    },
+    {
+      "id": "Q-DS-VAL-2",
+      "type": "DS",
+      "section": "Quant",
+      "difficulty": 1,
+      "tags": [
+        "Linear Equations",
+        "Data Sufficiency"
+      ],
+      "stem": "What is the value of x?",
+      "dsStatements": [
+        "(1) 3x + 5 = 27.",
+        "(2) x is an integer."
+      ],
+      "dsAnswer": "A",
+      "explanation": "(1) alone yields a single solution. (2) alone is not sufficient.",
+      "hints": [
+        "Try to solve directly from (1).",
+        "Check whether (2) restricts to one value."
+      ],
+      "keywords": [
+        "DS",
+        "solve"
+      ]
+    },
+    {
+      "id": "Q-DS-YN-14",
+      "type": "DS",
+      "section": "Quant",
+      "difficulty": 1,
+      "tags": [
+        "Inequalities",
+        "Data Sufficiency"
+      ],
+      "stem": "Is x > 4?",
+      "dsStatements": [
+        "(1) 8x > 32.",
+        "(2) x > 3."
+      ],
+      "dsAnswer": "A",
+      "explanation": "(1) implies x>4 directly; sufficient. (2) only gives x>3, not enough.",
+      "hints": [
+        "Reduce each statement.",
+        "Check if the question is fully answered."
+      ],
+      "keywords": [
+        "DS",
+        "A"
+      ]
+    },
+    {
+      "id": "V-SC-MOD-2",
+      "type": "SC",
+      "section": "Verbal",
+      "difficulty": 1,
+      "tags": [
+        "SC",
+        "Modifiers",
+        "Conciseness"
+      ],
+      "stem": "Select the best version of the sentence.",
+      "options": [
+        "The committee, meeting late into the night, they concluded that the proposal, which was controversial, should be revised.",
+        "Meeting late into the night, the committee concluded that the controversial proposal should be revised.",
+        "The committee concluded, which was controversial, meeting late into the night, that the proposal should be revised.",
+        "Meeting late into the night, the controversial proposal was concluded to be revised by the committee.",
+        "The committee, meeting late into the night, concluded that the proposal should be revised controversially."
+      ],
+      "answerIndex": 1,
+      "explanation": "Option B removes the doubled subject and places modifiers next to what they modify; it's concise and active.",
+      "hints": [
+        "Avoid double subjects.",
+        "Place modifiers correctly."
+      ]
+    },
+    {
+      "id": "Q-PS-PCT-7",
+      "type": "PS",
+      "section": "Quant",
+      "difficulty": 2,
+      "tags": [
+        "Percent",
+        "Multipliers"
+      ],
+      "stem": "A price is increased by 15% and then decreased by 25%. What is the net percent change from the original price?",
+      "options": [
+        "-24%",
+        "-19%",
+        "-14%",
+        "-9%",
+        "-4%"
+      ],
+      "answerIndex": 2,
+      "explanation": "Use multipliers: \u00d71.15 then \u00d70.75. Net multiplier m=0.862; net change is (m\u22121)\u00d7100\u2248-14%.",
+      "hints": [
+        "Translate to multipliers.",
+        "Multiply, then convert back to percent."
+      ],
+      "keywords": [
+        "percent",
+        "multiplier"
+      ]
+    },
+    {
+      "id": "V-CR-WEAK-19",
+      "type": "CR",
+      "section": "Verbal",
+      "difficulty": 3,
+      "tags": [
+        "CR",
+        "Weaken",
+        "Causation"
+      ],
+      "passage": "Officials claim that the recent new law significantly improved outcomes in energy policy. However, the data were collected during a period of unusual activity.",
+      "question": "Which of the following, if true, most seriously weakens the officials\u2019 claim?",
+      "options": [
+        "Independent reports show that another population segment largely accounts for the observed change.",
+        "A follow-up study used the same data and reached a similar conclusion.",
+        "The program was less expensive than earlier initiatives.",
+        "Some participants reported satisfaction with the program.",
+        "The agency plans to expand the program next year."
+      ],
+      "answerIndex": 0,
+      "explanation": "Pointing to an alternative cause that better explains the result undermines the causal claim.",
+      "hints": [
+        "Target the conclusion.",
+        "Look for an alternative cause or confounder."
+      ]
+    },
+    {
+      "id": "Q-PS-NP-2",
+      "type": "PS",
+      "section": "Quant",
+      "difficulty": 3,
+      "tags": [
+        "Number Theory",
+        "GCD/LCM"
+      ],
+      "stem": "For positive integers a and b, gcd(a,b)=12 and lcm(a,b)=72. What is ab?",
+      "options": [
+        "864",
+        "432",
+        "1728",
+        "858",
+        "870"
+      ],
+      "answerIndex": 0,
+      "explanation": "For integers, a\u00b7b = gcd(a,b) \u00d7 lcm(a,b).",
+      "hints": [
+        "Recall the product identity.",
+        "You don't need a and b individually."
+      ],
+      "keywords": [
+        "gcd",
+        "lcm",
+        "product"
+      ]
+    },
+    {
+      "id": "V-SC-MOD-3",
+      "type": "SC",
+      "section": "Verbal",
+      "difficulty": 1,
+      "tags": [
+        "SC",
+        "Modifiers",
+        "Conciseness"
+      ],
+      "stem": "Select the best version of the sentence.",
+      "options": [
+        "The committee, meeting late into the night, they concluded that the proposal, which was controversial, should be revised.",
+        "Meeting late into the night, the committee concluded that the controversial proposal should be revised.",
+        "The committee concluded, which was controversial, meeting late into the night, that the proposal should be revised.",
+        "Meeting late into the night, the controversial proposal was concluded to be revised by the committee.",
+        "The committee, meeting late into the night, concluded that the proposal should be revised controversially."
+      ],
+      "answerIndex": 1,
+      "explanation": "Option B removes the doubled subject and places modifiers next to what they modify; it's concise and active.",
+      "hints": [
+        "Avoid double subjects.",
+        "Place modifiers correctly."
+      ]
+    },
+    {
+      "id": "Q-DS-VAL-7",
+      "type": "DS",
+      "section": "Quant",
+      "difficulty": 1,
+      "tags": [
+        "Linear Equations",
+        "Data Sufficiency"
+      ],
+      "stem": "What is the value of x?",
+      "dsStatements": [
+        "(1) 3x + 5 = 9.",
+        "(2) x is an integer."
+      ],
+      "dsAnswer": "A",
+      "explanation": "(1) alone yields a single solution. (2) alone is not sufficient.",
+      "hints": [
+        "Try to solve directly from (1).",
+        "Check whether (2) restricts to one value."
+      ],
+      "keywords": [
+        "DS",
+        "solve"
+      ]
+    },
+    {
+      "id": "V-CR-WEAK-18",
+      "type": "CR",
+      "section": "Verbal",
+      "difficulty": 2,
+      "tags": [
+        "CR",
+        "Weaken",
+        "Causation"
+      ],
+      "passage": "Officials claim that the recent new law significantly improved outcomes in transport. However, the data were collected during a period of unusual activity.",
+      "question": "Which of the following, if true, most seriously weakens the officials\u2019 claim?",
+      "options": [
+        "Independent reports show that another population segment largely accounts for the observed change.",
+        "A follow-up study used the same data and reached a similar conclusion.",
+        "The program was less expensive than earlier initiatives.",
+        "Some participants reported satisfaction with the program.",
+        "The agency plans to expand the program next year."
+      ],
+      "answerIndex": 0,
+      "explanation": "Pointing to an alternative cause that better explains the result undermines the causal claim.",
+      "hints": [
+        "Target the conclusion.",
+        "Look for an alternative cause or confounder."
+      ]
+    },
+    {
+      "id": "Q-DS-VAL-12",
+      "type": "DS",
+      "section": "Quant",
+      "difficulty": 1,
+      "tags": [
+        "Linear Equations",
+        "Data Sufficiency"
+      ],
+      "stem": "What is the value of x?",
+      "dsStatements": [
+        "(1) 4x + 5 = 27.",
+        "(2) x is an integer."
+      ],
+      "dsAnswer": "A",
+      "explanation": "(1) alone yields a single solution. (2) alone is not sufficient.",
+      "hints": [
+        "Try to solve directly from (1).",
+        "Check whether (2) restricts to one value."
+      ],
+      "keywords": [
+        "DS",
+        "solve"
+      ]
+    },
+    {
+      "id": "Q-PS-PCT-8",
+      "type": "PS",
+      "section": "Quant",
+      "difficulty": 3,
+      "tags": [
+        "Percent",
+        "Multipliers"
+      ],
+      "stem": "A price is increased by 30% and then decreased by 10%. What is the net percent change from the original price?",
+      "options": [
+        "+7%",
+        "+12%",
+        "+17%",
+        "+22%",
+        "+27%"
+      ],
+      "answerIndex": 2,
+      "explanation": "Use multipliers: \u00d71.30 then \u00d70.90. Net multiplier m=1.170; net change is (m\u22121)\u00d7100\u224817%.",
+      "hints": [
+        "Translate to multipliers.",
+        "Multiply, then convert back to percent."
+      ],
+      "keywords": [
+        "percent",
+        "multiplier"
+      ]
+    },
+    {
+      "id": "Q-PS-RATE-13",
+      "type": "PS",
+      "section": "Quant",
+      "difficulty": 2,
+      "tags": [
+        "Rates",
+        "Work"
+      ],
+      "stem": "Machine A can finish a job in 4 hours and Machine B in 12 hours. Working together (constant rates), how long to finish the job?",
+      "options": [
+        "3.00 hours",
+        "2.40 hours",
+        "3.60 hours",
+        "2.70 hours",
+        "3.30 hours"
+      ],
+      "answerIndex": 0,
+      "explanation": "Add rates: 1/4+1/12=0.333. Time = 1/sum \u2248 3.00 hours.",
+      "hints": [
+        "Add rates, not times.",
+        "Use t = 1/(r_A + r_B)."
+      ],
+      "keywords": [
+        "rates",
+        "work"
+      ]
+    },
+    {
+      "id": "Q-PS-ALG-9",
+      "type": "PS",
+      "section": "Quant",
+      "difficulty": 1,
+      "tags": [
+        "Linear Equations"
+      ],
+      "stem": "Solve for x: 7x + 7 = 22.",
+      "options": [
+        "2.14",
+        "3.14",
+        "1.14",
+        "4.14",
+        "0.14"
+      ],
+      "answerIndex": 0,
+      "explanation": "7x = 22-7 \u21d2 x=15/7 = 2.14.",
+      "hints": [
+        "Isolate x.",
+        "Subtract then divide."
+      ],
+      "keywords": [
+        "solve",
+        "linear"
+      ]
+    },
+    {
+      "id": "Q-PS-RATE-10",
+      "type": "PS",
+      "section": "Quant",
+      "difficulty": 2,
+      "tags": [
+        "Rates",
+        "Work"
+      ],
+      "stem": "Machine A can finish a job in 8 hours and Machine B in 6 hours. Working together (constant rates), how long to finish the job?",
+      "options": [
+        "3.43 hours",
+        "2.74 hours",
+        "4.12 hours",
+        "3.09 hours",
+        "3.77 hours"
+      ],
+      "answerIndex": 0,
+      "explanation": "Add rates: 1/8+1/6=0.292. Time = 1/sum \u2248 3.43 hours.",
+      "hints": [
+        "Add rates, not times.",
+        "Use t = 1/(r_A + r_B)."
+      ],
+      "keywords": [
+        "rates",
+        "work"
+      ]
+    },
+    {
+      "id": "Q-PS-RATE-5",
+      "type": "PS",
+      "section": "Quant",
+      "difficulty": 3,
+      "tags": [
+        "Rates",
+        "Work"
+      ],
+      "stem": "Machine A can finish a job in 2 hours and Machine B in 4 hours. Working together (constant rates), how long to finish the job?",
+      "options": [
+        "1.33 hours",
+        "1.06 hours",
+        "1.60 hours",
+        "1.20 hours",
+        "1.46 hours"
+      ],
+      "answerIndex": 0,
+      "explanation": "Add rates: 1/2+1/4=0.750. Time = 1/sum \u2248 1.33 hours.",
+      "hints": [
+        "Add rates, not times.",
+        "Use t = 1/(r_A + r_B)."
+      ],
+      "keywords": [
+        "rates",
+        "work"
+      ]
+    },
+    {
+      "id": "Q-DS-YN-15",
+      "type": "DS",
+      "section": "Quant",
+      "difficulty": 1,
+      "tags": [
+        "Inequalities",
+        "Data Sufficiency"
+      ],
+      "stem": "Is x > 1?",
+      "dsStatements": [
+        "(1) 6x > 6.",
+        "(2) x > 0."
+      ],
+      "dsAnswer": "A",
+      "explanation": "(1) implies x>1 directly; sufficient. (2) only gives x>0, not enough.",
+      "hints": [
+        "Reduce each statement.",
+        "Check if the question is fully answered."
+      ],
+      "keywords": [
+        "DS",
+        "A"
+      ]
+    },
+    {
+      "id": "V-CR-WEAK-15",
+      "type": "CR",
+      "section": "Verbal",
+      "difficulty": 3,
+      "tags": [
+        "CR",
+        "Weaken",
+        "Causation"
+      ],
+      "passage": "Officials claim that the recent pilot program significantly improved outcomes in transport. However, the data were collected during a period of unusual activity.",
+      "question": "Which of the following, if true, most seriously weakens the officials\u2019 claim?",
+      "options": [
+        "Independent reports show that another population segment largely accounts for the observed change.",
+        "A follow-up study used the same data and reached a similar conclusion.",
+        "The program was less expensive than earlier initiatives.",
+        "Some participants reported satisfaction with the program.",
+        "The agency plans to expand the program next year."
+      ],
+      "answerIndex": 0,
+      "explanation": "Pointing to an alternative cause that better explains the result undermines the causal claim.",
+      "hints": [
+        "Target the conclusion.",
+        "Look for an alternative cause or confounder."
+      ]
+    },
+    {
+      "id": "V-CR-WEAK-8",
+      "type": "CR",
+      "section": "Verbal",
+      "difficulty": 2,
+      "tags": [
+        "CR",
+        "Weaken",
+        "Causation"
+      ],
+      "passage": "Officials claim that the recent ban significantly improved outcomes in transport. However, the data were collected during a period of unusual activity.",
+      "question": "Which of the following, if true, most seriously weakens the officials\u2019 claim?",
+      "options": [
+        "Independent reports show that macroeconomic trends largely accounts for the observed change.",
+        "A follow-up study used the same data and reached a similar conclusion.",
+        "The program was less expensive than earlier initiatives.",
+        "Some participants reported satisfaction with the program.",
+        "The agency plans to expand the program next year."
+      ],
+      "answerIndex": 0,
+      "explanation": "Pointing to an alternative cause that better explains the result undermines the causal claim.",
+      "hints": [
+        "Target the conclusion.",
+        "Look for an alternative cause or confounder."
+      ]
+    },
+    {
+      "id": "Q-DS-VAL-9",
+      "type": "DS",
+      "section": "Quant",
+      "difficulty": 1,
+      "tags": [
+        "Linear Equations",
+        "Data Sufficiency"
+      ],
+      "stem": "What is the value of x?",
+      "dsStatements": [
+        "(1) 2x + 5 = 27.",
+        "(2) x is an integer."
+      ],
+      "dsAnswer": "A",
+      "explanation": "(1) alone yields a single solution. (2) alone is not sufficient.",
+      "hints": [
+        "Try to solve directly from (1).",
+        "Check whether (2) restricts to one value."
+      ],
+      "keywords": [
+        "DS",
+        "solve"
+      ]
+    },
+    {
+      "id": "V-SC-MOD-18",
+      "type": "SC",
+      "section": "Verbal",
+      "difficulty": 2,
+      "tags": [
+        "SC",
+        "Modifiers",
+        "Conciseness"
+      ],
+      "stem": "Select the best version of the sentence.",
+      "options": [
+        "The committee, meeting late into the night, they concluded that the proposal, which was controversial, should be revised.",
+        "Meeting late into the night, the committee concluded that the controversial proposal should be revised.",
+        "The committee concluded, which was controversial, meeting late into the night, that the proposal should be revised.",
+        "Meeting late into the night, the controversial proposal was concluded to be revised by the committee.",
+        "The committee, meeting late into the night, concluded that the proposal should be revised controversially."
+      ],
+      "answerIndex": 1,
+      "explanation": "Option B removes the doubled subject and places modifiers next to what they modify; it's concise and active.",
+      "hints": [
+        "Avoid double subjects.",
+        "Place modifiers correctly."
+      ]
+    },
+    {
+      "id": "V-CR-WEAK-17",
+      "type": "CR",
+      "section": "Verbal",
+      "difficulty": 2,
+      "tags": [
+        "CR",
+        "Weaken",
+        "Causation"
+      ],
+      "passage": "Officials claim that the recent ban significantly improved outcomes in public health. However, the data were collected during a period of unusual activity.",
+      "question": "Which of the following, if true, most seriously weakens the officials\u2019 claim?",
+      "options": [
+        "Independent reports show that seasonal effects largely accounts for the observed change.",
+        "A follow-up study used the same data and reached a similar conclusion.",
+        "The program was less expensive than earlier initiatives.",
+        "Some participants reported satisfaction with the program.",
+        "The agency plans to expand the program next year."
+      ],
+      "answerIndex": 0,
+      "explanation": "Pointing to an alternative cause that better explains the result undermines the causal claim.",
+      "hints": [
+        "Target the conclusion.",
+        "Look for an alternative cause or confounder."
+      ]
+    },
+    {
+      "id": "V-CR-WEAK-13",
+      "type": "CR",
+      "section": "Verbal",
+      "difficulty": 2,
+      "tags": [
+        "CR",
+        "Weaken",
+        "Causation"
+      ],
+      "passage": "Officials claim that the recent new law significantly improved outcomes in public health. However, the data were collected during a period of unusual activity.",
+      "question": "Which of the following, if true, most seriously weakens the officials\u2019 claim?",
+      "options": [
+        "Independent reports show that macroeconomic trends largely accounts for the observed change.",
+        "A follow-up study used the same data and reached a similar conclusion.",
+        "The program was less expensive than earlier initiatives.",
+        "Some participants reported satisfaction with the program.",
+        "The agency plans to expand the program next year."
+      ],
+      "answerIndex": 0,
+      "explanation": "Pointing to an alternative cause that better explains the result undermines the causal claim.",
+      "hints": [
+        "Target the conclusion.",
+        "Look for an alternative cause or confounder."
+      ]
+    },
+    {
+      "id": "Q-DS-YN-7",
+      "type": "DS",
+      "section": "Quant",
+      "difficulty": 1,
+      "tags": [
+        "Inequalities",
+        "Data Sufficiency"
+      ],
+      "stem": "Is x > 2?",
+      "dsStatements": [
+        "(1) 2x > 4.",
+        "(2) x > 1."
+      ],
+      "dsAnswer": "A",
+      "explanation": "(1) implies x>2 directly; sufficient. (2) only gives x>1, not enough.",
+      "hints": [
+        "Reduce each statement.",
+        "Check if the question is fully answered."
+      ],
+      "keywords": [
+        "DS",
+        "A"
+      ]
+    },
+    {
+      "id": "Q-PS-ALG-8",
+      "type": "PS",
+      "section": "Quant",
+      "difficulty": 1,
+      "tags": [
+        "Linear Equations"
+      ],
+      "stem": "Solve for x: 6x + 7 = 20.",
+      "options": [
+        "2.17",
+        "3.17",
+        "1.17",
+        "4.17",
+        "0.17"
+      ],
+      "answerIndex": 0,
+      "explanation": "6x = 20-7 \u21d2 x=13/6 = 2.17.",
+      "hints": [
+        "Isolate x.",
+        "Subtract then divide."
+      ],
+      "keywords": [
+        "solve",
+        "linear"
+      ]
+    },
+    {
+      "id": "Q-DS-YN-11",
+      "type": "DS",
+      "section": "Quant",
+      "difficulty": 1,
+      "tags": [
+        "Inequalities",
+        "Data Sufficiency"
+      ],
+      "stem": "Is x > 1?",
+      "dsStatements": [
+        "(1) 6x > 6.",
+        "(2) x > 0."
+      ],
+      "dsAnswer": "A",
+      "explanation": "(1) implies x>1 directly; sufficient. (2) only gives x>0, not enough.",
+      "hints": [
+        "Reduce each statement.",
+        "Check if the question is fully answered."
+      ],
+      "keywords": [
+        "DS",
+        "A"
+      ]
+    },
+    {
+      "id": "V-SC-MOD-19",
+      "type": "SC",
+      "section": "Verbal",
+      "difficulty": 2,
+      "tags": [
+        "SC",
+        "Modifiers",
+        "Conciseness"
+      ],
+      "stem": "Select the best version of the sentence.",
+      "options": [
+        "The committee, meeting late into the night, they concluded that the proposal, which was controversial, should be revised.",
+        "Meeting late into the night, the committee concluded that the controversial proposal should be revised.",
+        "The committee concluded, which was controversial, meeting late into the night, that the proposal should be revised.",
+        "Meeting late into the night, the controversial proposal was concluded to be revised by the committee.",
+        "The committee, meeting late into the night, concluded that the proposal should be revised controversially."
+      ],
+      "answerIndex": 1,
+      "explanation": "Option B removes the doubled subject and places modifiers next to what they modify; it's concise and active.",
+      "hints": [
+        "Avoid double subjects.",
+        "Place modifiers correctly."
+      ]
+    },
+    {
+      "id": "V-SC-MOD-4",
+      "type": "SC",
+      "section": "Verbal",
+      "difficulty": 2,
+      "tags": [
+        "SC",
+        "Modifiers",
+        "Conciseness"
+      ],
+      "stem": "Select the best version of the sentence.",
+      "options": [
+        "The committee, meeting late into the night, they concluded that the proposal, which was controversial, should be revised.",
+        "Meeting late into the night, the committee concluded that the controversial proposal should be revised.",
+        "The committee concluded, which was controversial, meeting late into the night, that the proposal should be revised.",
+        "Meeting late into the night, the controversial proposal was concluded to be revised by the committee.",
+        "The committee, meeting late into the night, concluded that the proposal should be revised controversially."
+      ],
+      "answerIndex": 1,
+      "explanation": "Option B removes the doubled subject and places modifiers next to what they modify; it's concise and active.",
+      "hints": [
+        "Avoid double subjects.",
+        "Place modifiers correctly."
+      ]
+    },
+    {
+      "id": "Q-PS-ALG-5",
+      "type": "PS",
+      "section": "Quant",
+      "difficulty": 1,
+      "tags": [
+        "Linear Equations"
+      ],
+      "stem": "Solve for x: 5x + 6 = 30.",
+      "options": [
+        "4.8",
+        "5.8",
+        "3.8",
+        "6.8",
+        "2.8"
+      ],
+      "answerIndex": 0,
+      "explanation": "5x = 30-6 \u21d2 x=24/5 = 4.80.",
+      "hints": [
+        "Isolate x.",
+        "Subtract then divide."
+      ],
+      "keywords": [
+        "solve",
+        "linear"
+      ]
+    }
+  ],
+  "license": "CC0-1.0",
+  "generated_at": "2025-08-09T09:32:34.881056Z"
+}
